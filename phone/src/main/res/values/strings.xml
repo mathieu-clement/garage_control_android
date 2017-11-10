@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GarageControl</string>
+    <string name="open">\u21E1 Open \u21E1</string>
+    <string name="close">\u21E3 Close \u21E3</string>
+    <string name="wait_text">%d s remaining…</string>
+    <string name="processing_request">Sending request…</string>
+    <string name="cmd_received">Cmd received. The door is moving…</string>
+
+    <string name="confirm_dialog_positive_button">Yes</string>
+    <string name="confirm_dialog_negative_button">No</string>
+    <string name="confirm_dialog_open_title">Confirmation</string>
+    <string name="confirm_dialog_open_message">Do you really want to open the garage door?</string>
+    <string name="confirm_dialog_close_title">Confirmation</string>
+    <string name="confirm_dialog_close_message">Do you really want to close the garage door? \nNever do that without
+        the garage door in sight.
+    </string>
+
+    <string name="gps_trigger_armed">GPS location trigger *armed*</string>
+    <string name="gps_trigger_disabled">GPS location trigger disabled</string>
+    <string name="gps_trigger_fix_obtained">Monitoring location</string>
+    <string name="gps_trigger_fix_lost">3D fix lost</string>
+    <string name="gps_trigger_error">GPS error</string>
+    <string name="gps_trigger_opening">Garage opening. Now unarmed.</string>
+    <string name="menu_item_arm_gps_trigger_title">Open when approaching the
+        house
+    </string>
+</resources>

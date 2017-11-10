@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Télécommande Garage</string>
+
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+    <string name="wait_text">%d s restante(s)…</string>
+    <string name="processing_request">Envoi de la commande…</string>
+    <string name="cmd_received">Bien reçu! Porte en mouvement…</string>
+
+    <string name="confirm_dialog_positive_button">Oui</string>
+    <string name="confirm_dialog_negative_button">Non</string>
+    <string name="confirm_dialog_open_title">Confirmation</string>
+    <string name="confirm_dialog_open_message">Voulez-vous vraiment ouvrir la porte de garage ?</string>
+    <string name="confirm_dialog_close_title">Confirmation</string>
+    <string name="confirm_dialog_close_message">Voulez-vous vraiment fermer la porte de garage ?
+        \nVérifiez les environs avant de continuer.
+    </string>
+
+    <string name="gps_trigger_armed">Déclencheur GPS *armé*</string>
+    <string name="gps_trigger_disabled">Déclencheur GPS désactivé.</string>
+    <string name="gps_trigger_fix_obtained">Suivi de la position</string>
+    <string name="gps_trigger_fix_lost">Position perdue (recherche…)</string>
+    <string name="gps_trigger_error">Erreur</string>
+    <string name="gps_trigger_opening">Ouverture du garage. Arrêt du suivi.</string>
+    <string name="menu_item_arm_gps_trigger_title">Ouvrir en arrivant à la maison</string>
+</resources>

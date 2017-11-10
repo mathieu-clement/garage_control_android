@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mathieuclement.android.garage_opener.app">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <!-- To read phone number -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- To read Google account -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <!-- GPS location trigger -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher"
+            android:name=".MyApplication"
+            android:allowBackup="false">
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mathieuclement.android.garage_opener.app.action.OPEN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mathieuclement.android.garage_opener.app.action.CLOSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
